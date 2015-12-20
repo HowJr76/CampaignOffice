@@ -2,7 +2,7 @@
 -- coverage: 0
 
 channel.answer()
-channel.say("Hello Howard. This is an example application. Enter any number followed by the pound sign.")
+channel.say("Hello Howard.  This is an example application. Enter any number followed by the pound sign.")
 local digits = channel.gather()
 channel.say(digits)
 channel.hangup()
