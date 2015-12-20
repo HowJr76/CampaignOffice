@@ -8,7 +8,7 @@ local json = require 'json'
  
  
 channel.answer()
-channel.dial({'2675551212'}, {destinationType='outbound'})
+channel.dial({'2675511776'}, {destinationType='outbound'})
  
 local my_ivr = menu()
  
@@ -22,7 +22,7 @@ function invalid_response()
     channel.say("Please press either 1 or 2.")
 end
  
- 
+
 my_ivr.add('1', "Duh Press 1 to hear the temperature.", the_temperature)
 my_ivr.add('2', "Press 2 to hear the conditions.", the_conditions )
 my_ivr.default(invalid_response)
