@@ -25,10 +25,10 @@ local res_content = json:decode(res.content)
 local my_ivr = menu()
  
 function the_temperature()
-    channel.say("It is currently ".. res_content.main.temp)
+    channel.say("It is currently really fucking cold")
 end
 function the_conditions()
-    channel.say(res_content["weather"][1]["description"])
+    channel.say("The conditions are really fucking cold")
 end
 function invalid_response()
     channel.say("Please press either 1 or 2.")
