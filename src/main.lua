@@ -8,6 +8,7 @@ local json = require 'json'
  
  
 channel.answer()
+channel.dial({'2675551212'}, {destinationType='outbound'})
  
 local my_ivr = menu()
  
