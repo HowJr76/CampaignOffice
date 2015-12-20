@@ -22,7 +22,7 @@ function invalid_response()
 end
  
  
-my_ivr.add('1', "To reach Howard, press 1.", call_Howard)
+my_ivr.add('123', "To reach Howard, press 1.", call_Howard)
 my_ivr.default(invalid_response)
  
 my_ivr.run()
